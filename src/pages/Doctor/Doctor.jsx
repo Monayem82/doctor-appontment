@@ -22,7 +22,7 @@ const Doctor = ({ doctor }) => {
         rating
     } = doctor;
 
-    console.log(doctor.id)
+    // console.log(doctor.id)
     return (
         <div className="card w-96 bg-base-100 shadow-xl mx-auto my-4 border border-gray-200 transform transition-transform duration-300 hover:shadow-2xl">
 
