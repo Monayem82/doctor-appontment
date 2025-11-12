@@ -10,6 +10,8 @@ const DoctorsProviders = ({children}) => {
 
     // console.log(doctorsData)
 
+    
+
     const informations={
         doctorsData,
     }

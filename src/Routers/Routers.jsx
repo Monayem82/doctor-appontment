@@ -3,6 +3,8 @@ import Root from "../Root/Root";
 import Home from "../pages/Home/Home";
 import Doctor from "../pages/Doctor/Doctor";
 import DoctorDetails from "../pages/DoctorDetails/DoctorDetails";
+import Bookings from "../pages/Bookings/Bookings";
+import CoomingSoon from "../pages/CoomingSoon/CoomingSoon";
 
 export const router=createBrowserRouter([
     {
@@ -21,7 +23,15 @@ export const router=createBrowserRouter([
                 },
                 Component:DoctorDetails,
 
-            }
+            },
+            {
+                path:'/bookings',
+                Component:Bookings
+            },
+            {
+                path:'contact',
+                Component:CoomingSoon,
+            },
         ]
     }
 ])

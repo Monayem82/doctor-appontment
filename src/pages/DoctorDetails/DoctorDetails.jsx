@@ -1,30 +1,60 @@
-import React, { useContext } from 'react';
-import {  useParams } from 'react-router';
+import React, { useContext, useEffect, useState } from 'react';
+import { useNavigate, useParams } from 'react-router';
 import { DoctorsContext } from '../../context/doctorsContext';
+import { addLocalStorageData, getLocalStorageData, removeLocalStorageData } from '../../context/localStorage';
+import { toast, ToastContainer } from 'react-toastify';
 
 const DoctorDetails = () => {
+    const [appointment,setAppointment]=useState(true)
+    const navigate=useNavigate()
 
-    const {doctorsData}=useContext(DoctorsContext)
+    const { doctorsData } = useContext(DoctorsContext)
 
-    const {id}=useParams()
+    const { id } = useParams()
 
     // console.log(doctorsData,id)
-    
 
-    if(!doctorsData){
+    useEffect(()=>{
+        const getlocal=getLocalStorageData()
+        if(getlocal.includes(id)){
+            setAppointment(false)
+        }else{
+            setAppointment(true)
+        }
+    },[id])
+
+
+    if (!doctorsData) {
         return <div>Loading details...</div>;
     }
 
-    const eachDoctorInfo=doctorsData.find(doctor=>id===doctor.id)
+    const eachDoctorInfo = doctorsData.find(doctor => id === doctor.id)
     console.log(eachDoctorInfo)
 
     if (!eachDoctorInfo) {
         return <div>Error: Doctor with ID {id} not found.</div>;
     }
 
-    // if (!doctor) {
-    //     return <div className="p-4 bg-red-100 text-red-700 rounded-lg">Error: Doctor data not available.</div>;
-    // }
+    const handleAddAppointment = (id) => {
+        const getlocalStore =getLocalStorageData()
+        if(getlocalStore.includes(id)){
+            toast('Already Added')
+            return 
+        }else{
+            addLocalStorageData(id)
+            toast('Successfully Added')
+            setAppointment(!appointment)
+            navigate('/bookings')
+            return
+        }
+        
+    }
+    const handleRemoveAppointment=(id)=>{
+        removeLocalStorageData(id)
+        setAppointment(!appointment)
+        toast('Remove Appointment')
+        return
+    }
 
     const {
         image_url,
@@ -43,7 +73,7 @@ const DoctorDetails = () => {
     return (
         // Main Container: Wide card (w-full max-w-4xl) with flex layout
         // The bg-base-100 provides the white background
-        <div className="card w-full max-w-4xl bg-base-100 shadow-xl mx-auto my-4 border border-gray-200 p-0">
+        <div className="card w-full max-w-6xl h-full bg-base-100 shadow-xl mx-auto my-4 border border-gray-200 p-0">
 
             {/* Horizontal Flex Container for Image (Left) and Details (Right) */}
             <div className="flex flex-col md:flex-row items-start">
@@ -117,11 +147,14 @@ const DoctorDetails = () => {
                             <p className="text-xs text-gray-500 mb-2">Incl. {consultation_details.vat_tax_percentage}% VAT+Tax</p>
 
                         </div>
-                        
-                    </div>
-                    
-                            <button className="btn btn-primary btn-sm md:btn-md lg:w-full">Book Appointment</button>
 
+                    </div>
+                    {
+                        appointment ? <button onClick={() => handleAddAppointment(id)} className="btn btn-primary btn-sm md:btn-md lg:w-full">Booking Appointment</button>
+                                    : <button onClick={() => handleRemoveAppointment(id)} className="btn btn-success btn-sm md:btn-md lg:w-full">Remove Appointment</button>
+                    }
+                    
+                    <ToastContainer></ToastContainer>
                 </div>
             </div>
         </div>

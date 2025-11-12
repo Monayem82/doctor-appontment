@@ -5,8 +5,8 @@ const Navbar = () => {
 
     const Links = <>
         <li><NavLink to={`/`}>Home</NavLink></li>
-        <li><NavLink to={`/booking`}>Bookings</NavLink></li>
-        <li><NavLink to={`/blogs`}>Blogs</NavLink></li>
+        <li><NavLink to={`/bookings`}>Bookings</NavLink></li>
+        <li><NavLink to={`/contact`}>Blogs</NavLink></li>
         <li><NavLink to={`/contact`}>Contact</NavLink></li>
     </>
 
@@ -36,7 +36,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Emergency</a>
+                <NavLink to={`/`}><button className="btn">Emergency</button></NavLink>
             </div>
         </div>
     );
