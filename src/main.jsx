@@ -5,11 +5,14 @@ import App from './App.jsx'
 import { RouterProvider } from "react-router/dom";
 import Root from './Root/Root.jsx';
 import { router } from './Routers/Routers.jsx';
+import DoctorsProviders from './context/DoctorsProviders.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}>
-      <Root></Root>
-    </RouterProvider>
+    <DoctorsProviders>
+      <RouterProvider router={router}>
+        <Root></Root>
+      </RouterProvider>
+    </DoctorsProviders>
   </StrictMode>,
 )

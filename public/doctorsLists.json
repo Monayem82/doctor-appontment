@@ -1,0 +1,262 @@
+[
+  {
+    "id": "DR1001",
+    "image_url": "/src/assets/doctor-sample.png",
+    "name": "Dr. Sarah J. Smith",
+    "education": "MBBS (DU), FCPS (Internal Medicine), MRCP (UK)",
+    "speciality": "Internal Medicine",
+    "experience_years": 15,
+    "registration_number": "A-12345",
+    "consultation_details": {
+      "fee_bdt": 1500,
+      "vat_tax_percentage": 15,
+      "total_fee_bdt": 1725,
+      "notes": "Includes 15% VAT & Tax"
+    },
+    "schedule": {
+      "available_days": ["Sunday", "Tuesday", "Thursday"],
+      "session_time": "5:00 PM - 8:00 PM"
+    },
+    "seating_location": {
+      "hospital_name": "Evergreen General Hospital",
+      "address": "Road 10, Sector 14, Uttara, Dhaka",
+      "room_number": "Chamber 305"
+    },
+    "language_spoken": ["English", "Bengali"],
+    "rating": 4.8
+  },
+  {
+    "id": "DR1002",
+    "image_url": "/src/assets/doctor-sample.png",
+    "name": "Dr. Ahsan Khan",
+    "education": "BDS (CMC), MDS (Oral and Maxillofacial Surgery)",
+    "speciality": "Oral and Maxillofacial Surgery",
+    "experience_years": 8,
+    "registration_number": "D-67890",
+    "consultation_details": {
+      "fee_bdt": 1000,
+      "vat_tax_percentage": 10,
+      "total_fee_bdt": 1100,
+      "notes": "Includes 10% VAT & Tax"
+    },
+    "schedule": {
+      "available_days": ["Monday", "Wednesday", "Friday"],
+      "session_time": "4:00 PM - 7:00 PM"
+    },
+    "seating_location": {
+      "hospital_name": "Dental Care & Implant Center",
+      "address": "Green Road, Dhanmondi, Dhaka",
+      "room_number": "Ground Floor Chamber"
+    },
+    "language_spoken": ["Bengali", "Hindi"],
+    "rating": 4.5
+  },
+  {
+    "id": "DR1003",
+    "image_url": "/src/assets/doctor-sample.png",
+    "name": "Dr. Priya Chatterjee",
+    "education": "MBBS, MD (Pediatrics)",
+    "speciality": "Pediatrics (Child Specialist)",
+    "experience_years": 12,
+    "registration_number": "B-54321",
+    "consultation_details": {
+      "fee_bdt": 1800,
+      "vat_tax_percentage": 15,
+      "total_fee_bdt": 2070,
+      "notes": "Includes 15% VAT & Tax"
+    },
+    "schedule": {
+      "available_days": ["Saturday", "Monday", "Wednesday"],
+      "session_time": "9:00 AM - 1:00 PM"
+    },
+    "seating_location": {
+      "hospital_name": "Royal Kids Hospital",
+      "address": "Main Street, Gulshan 1, Dhaka",
+      "room_number": "Pediatrics Unit - 201"
+    },
+    "language_spoken": ["English", "Bengali", "Urdu"],
+    "rating": 4.9
+  },
+  {
+    "id": "DR1004",
+    "image_url": "/src/assets/doctor-sample.png",
+    "name": "Prof. Dr. Jamal Hossain",
+    "education": "MBBS, MS (Cardiology), FACC",
+    "speciality": "Cardiology",
+    "experience_years": 25,
+    "registration_number": "C-98765",
+    "consultation_details": {
+      "fee_bdt": 2500,
+      "vat_tax_percentage": 10,
+      "total_fee_bdt": 2750,
+      "notes": "Includes 10% VAT & Tax"
+    },
+    "schedule": {
+      "available_days": ["Sunday", "Monday", "Tuesday", "Wednesday"],
+      "session_time": "3:00 PM - 6:00 PM"
+    },
+    "seating_location": {
+      "hospital_name": "National Heart Institute",
+      "address": "Sher-e-Bangla Nagar, Dhaka",
+      "room_number": "Private Chamber 1"
+    },
+    "language_spoken": ["Bengali", "English"],
+    "rating": 4.7
+  },
+  {
+    "id": "DR1005",
+    "image_url": "/src/assets/doctor-sample.png",
+    "name": "Dr. Naila Akhtar",
+    "education": "MBBS, MD (Dermatology)",
+    "speciality": "Dermatology and Cosmetology",
+    "experience_years": 9,
+    "registration_number": "F-11223",
+    "consultation_details": {
+      "fee_bdt": 1200,
+      "vat_tax_percentage": 15,
+      "total_fee_bdt": 1380,
+      "notes": "Includes 15% VAT & Tax"
+    },
+    "schedule": {
+      "available_days": ["Monday", "Thursday"],
+      "session_time": "6:00 PM - 9:00 PM"
+    },
+    "seating_location": {
+      "hospital_name": "Skin & Laser Center",
+      "address": "Banani, Dhaka 1213",
+      "room_number": "Consultation Room 4"
+    },
+    "language_spoken": ["English", "Bengali"],
+    "rating": 4.6
+  },
+  {
+    "id": "DR1006",
+    "image_url": "/src/assets/doctor-sample.png",
+    "name": "Dr. Rashedul Islam",
+    "education": "MBBS, FRCS (Surgery)",
+    "speciality": "General Surgery",
+    "experience_years": 18,
+    "registration_number": "G-44556",
+    "consultation_details": {
+      "fee_bdt": 2000,
+      "vat_tax_percentage": 10,
+      "total_fee_bdt": 2200,
+      "notes": "Includes 10% VAT & Tax"
+    },
+    "schedule": {
+      "available_days": ["Saturday", "Sunday", "Friday"],
+      "session_time": "10:00 AM - 1:00 PM"
+    },
+    "seating_location": {
+      "hospital_name": "United Hospital Limited",
+      "address": "Gulshan 2, Dhaka",
+      "room_number": "OPD Chamber 5"
+    },
+    "language_spoken": ["Bengali"],
+    "rating": 4.8
+  },
+  {
+    "id": "DR1007",
+    "image_url": "/src/assets/doctor-sample.png",
+    "name": "Dr. Subhash Roy",
+    "education": "MBBS, MD (Neurology)",
+    "speciality": "Neurology",
+    "experience_years": 10,
+    "registration_number": "H-77889",
+    "consultation_details": {
+      "fee_bdt": 1600,
+      "vat_tax_percentage": 15,
+      "total_fee_bdt": 1840,
+      "notes": "Includes 15% VAT & Tax"
+    },
+    "schedule": {
+      "available_days": ["Tuesday", "Wednesday", "Thursday"],
+      "session_time": "4:30 PM - 7:30 PM"
+    },
+    "seating_location": {
+      "hospital_name": "Dhaka Medical College Hospital (Private Chamber)",
+      "address": "Shahbagh, Dhaka",
+      "room_number": "Annex Building - Room 102"
+    },
+    "language_spoken": ["Bengali", "English"],
+    "rating": 4.5
+  },
+  {
+    "id": "DR1008",
+    "image_url": "/src/assets/doctor-sample.png",
+    "name": "Dr. Farzana Lima",
+    "education": "MBBS, FCPS (Gynaecology & Obstetrics)",
+    "speciality": "Gynaecology and Obstetrics",
+    "experience_years": 14,
+    "registration_number": "I-99001",
+    "consultation_details": {
+      "fee_bdt": 1700,
+      "vat_tax_percentage": 10,
+      "total_fee_bdt": 1870,
+      "notes": "Includes 10% VAT & Tax"
+    },
+    "schedule": {
+      "available_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "session_time": "10:00 AM - 1:00 PM"
+    },
+    "seating_location": {
+      "hospital_name": "Ayesha Memorial Clinic",
+      "address": "Mirpur 10, Dhaka",
+      "room_number": "First Floor, Chamber B"
+    },
+    "language_spoken": ["Bengali"],
+    "rating": 4.9
+  },
+  {
+    "id": "DR1009",
+    "image_url": "/src/assets/doctor-sample.png",
+    "name": "Dr. Kamrul Ahmed",
+    "education": "MBBS, D Ortho (Orthopedics)",
+    "speciality": "Orthopedics and Trauma",
+    "experience_years": 20,
+    "registration_number": "J-10203",
+    "consultation_details": {
+      "fee_bdt": 2200,
+      "vat_tax_percentage": 15,
+      "total_fee_bdt": 2530,
+      "notes": "Includes 15% VAT & Tax"
+    },
+    "schedule": {
+      "available_days": ["Saturday", "Sunday"],
+      "session_time": "4:00 PM - 8:00 PM"
+    },
+    "seating_location": {
+      "hospital_name": "Popular Diagnostic Center (Chamber)",
+      "address": "Shyamoli, Dhaka",
+      "room_number": "Room 5A"
+    },
+    "language_spoken": ["English", "Bengali"],
+    "rating": 4.7
+  },
+  {
+    "id": "DR1010",
+    "image_url": "/src/assets/doctor-sample.png",
+    "name": "Dr. Sabiha Haque",
+    "education": "MBBS, MD (Eye)",
+    "speciality": "Ophthalmology (Eye Specialist)",
+    "experience_years": 7,
+    "registration_number": "K-30405",
+    "consultation_details": {
+      "fee_bdt": 900,
+      "vat_tax_percentage": 10,
+      "total_fee_bdt": 990,
+      "notes": "Includes 10% VAT & Tax"
+    },
+    "schedule": {
+      "available_days": ["Monday", "Wednesday", "Friday"],
+      "session_time": "3:00 PM - 5:00 PM"
+    },
+    "seating_location": {
+      "hospital_name": "Eye Care Hospital",
+      "address": "Kakrail, Dhaka",
+      "room_number": "OPD 3"
+    },
+    "language_spoken": ["Bengali", "English"],
+    "rating": 4.4
+  }
+]
