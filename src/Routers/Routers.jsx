@@ -5,6 +5,8 @@ import Doctor from "../pages/Doctor/Doctor";
 import DoctorDetails from "../pages/DoctorDetails/DoctorDetails";
 import Bookings from "../pages/Bookings/Bookings";
 import CoomingSoon from "../pages/CoomingSoon/CoomingSoon";
+import Login from "../pages/Login/Login";
+import SignUp from "../pages/SignUp/SignUp";
 
 export const router=createBrowserRouter([
     {
@@ -32,6 +34,14 @@ export const router=createBrowserRouter([
                 path:'contact',
                 Component:CoomingSoon,
             },
+            {
+                path:'/login',
+                Component:Login,
+            },
+            {
+                path:'/signup',
+                Component:SignUp,
+            }
         ]
     }
 ])
