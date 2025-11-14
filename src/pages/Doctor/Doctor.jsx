@@ -9,7 +9,7 @@ const Doctor = ({ doctor }) => {
 
     const {
         // id,
-        // image_url,
+        image_url,
         name,
         education,
         speciality,
@@ -32,7 +32,7 @@ const Doctor = ({ doctor }) => {
                     <div className="avatar">
                         <div className="w-24 h-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 overflow-hidden">
                             <img
-                                src={'/src/assets/doctor-sample.png'}
+                                src={image_url}
                                 alt={doctor.name}
                                 className="object-cover w-full h-full"
                             />

@@ -25,7 +25,7 @@ const Navbar = () => {
                 </div>
                 <div>
                     <NavLink className='flex items-center text-2xl font-bold' to={`/`}>
-                        <img src="/public/logo.png" className='h-8 w-8 mr-1' alt="" />DocTalk
+                        <img src="/logo.png" className='h-8 w-8 mr-1' alt="" />DocTalk
                     </NavLink>
 
                 </div>

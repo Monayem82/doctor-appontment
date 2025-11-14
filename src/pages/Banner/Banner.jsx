@@ -12,13 +12,13 @@ const Banner = () => {
                     <div className="relative w-full max-w-md h-96">
                         {/* Image 1: Main/Larger Image */}
                         <img
-                            src="/src/assets/banner-img-1.png"
+                            src="assets/banner-img-1.png"
                             className="w-3/4 h-3/4 object-cover rounded-box shadow-2xl absolute top-0 left-0 transform -rotate-3 hover:rotate-0 transition duration-500 ease-in-out"
                             alt="Stylish modern architecture"
                         />
                         {/* Image 2: Secondary/Smaller Image (Overlapping) */}
                         <img
-                            src="/src/assets/doctor-sample.png"
+                            src="assets/doctor-sample.png"
                             className="w-1/2 h-1/2 object-cover rounded-box shadow-2xl absolute bottom-0 right-0 transform rotate-6 hover:rotate-0 transition duration-500 ease-in-out"
                             alt="Modern interior design"
                         />

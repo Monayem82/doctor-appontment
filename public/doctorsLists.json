@@ -1,7 +1,7 @@
 [
   {
     "id": "DR1001",
-    "image_url": "/src/assets/doctor-sample.png",
+    "image_url": "assets/doctor-sample.png",
     "name": "Dr. Sarah J. Smith",
     "education": "MBBS (DU), FCPS (Internal Medicine), MRCP (UK)",
     "speciality": "Internal Medicine",
@@ -27,7 +27,7 @@
   },
   {
     "id": "DR1002",
-    "image_url": "/src/assets/doctor-sample.png",
+    "image_url": "assets/doctor-sample.png",
     "name": "Dr. Ahsan Khan",
     "education": "BDS (CMC), MDS (Oral and Maxillofacial Surgery)",
     "speciality": "Oral and Maxillofacial Surgery",
@@ -53,7 +53,7 @@
   },
   {
     "id": "DR1003",
-    "image_url": "/src/assets/doctor-sample.png",
+    "image_url": "assets/doctor-sample.png",
     "name": "Dr. Priya Chatterjee",
     "education": "MBBS, MD (Pediatrics)",
     "speciality": "Pediatrics (Child Specialist)",
@@ -79,7 +79,7 @@
   },
   {
     "id": "DR1004",
-    "image_url": "/src/assets/doctor-sample.png",
+    "image_url": "assets/doctor-sample.png",
     "name": "Prof. Dr. Jamal Hossain",
     "education": "MBBS, MS (Cardiology), FACC",
     "speciality": "Cardiology",
@@ -105,7 +105,7 @@
   },
   {
     "id": "DR1005",
-    "image_url": "/src/assets/doctor-sample.png",
+    "image_url": "assets/doctor-sample.png",
     "name": "Dr. Naila Akhtar",
     "education": "MBBS, MD (Dermatology)",
     "speciality": "Dermatology and Cosmetology",
@@ -131,7 +131,7 @@
   },
   {
     "id": "DR1006",
-    "image_url": "/src/assets/doctor-sample.png",
+    "image_url": "assets/doctor-sample.png",
     "name": "Dr. Rashedul Islam",
     "education": "MBBS, FRCS (Surgery)",
     "speciality": "General Surgery",
@@ -157,7 +157,7 @@
   },
   {
     "id": "DR1007",
-    "image_url": "/src/assets/doctor-sample.png",
+    "image_url": "assets/doctor-sample.png",
     "name": "Dr. Subhash Roy",
     "education": "MBBS, MD (Neurology)",
     "speciality": "Neurology",
@@ -183,7 +183,7 @@
   },
   {
     "id": "DR1008",
-    "image_url": "/src/assets/doctor-sample.png",
+    "image_url": "assets/doctor-sample.png",
     "name": "Dr. Farzana Lima",
     "education": "MBBS, FCPS (Gynaecology & Obstetrics)",
     "speciality": "Gynaecology and Obstetrics",
@@ -209,7 +209,7 @@
   },
   {
     "id": "DR1009",
-    "image_url": "/src/assets/doctor-sample.png",
+    "image_url": "assets/doctor-sample.png",
     "name": "Dr. Kamrul Ahmed",
     "education": "MBBS, D Ortho (Orthopedics)",
     "speciality": "Orthopedics and Trauma",
@@ -235,7 +235,7 @@
   },
   {
     "id": "DR1010",
-    "image_url": "/src/assets/doctor-sample.png",
+    "image_url": "assets/doctor-sample.png",
     "name": "Dr. Sabiha Haque",
     "education": "MBBS, MD (Eye)",
     "speciality": "Ophthalmology (Eye Specialist)",
